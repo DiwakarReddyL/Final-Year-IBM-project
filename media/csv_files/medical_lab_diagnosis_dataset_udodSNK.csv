@@ -1,0 +1,13 @@
+Hemoglobin,WBC,Platelets,PCV,MCV,MCH,MCHC,Diagnosis
+10.5,3.2,150,33,72,24.0,30.0,Iron Deficiency Anemia
+11.2,4.1,160,35,75,23.0,31.0,Iron Deficiency Anemia
+9.8,3.8,170,32,70,22.0,29.0,Iron Deficiency Anemia
+18.2,11.5,450,55,89,30.0,34.0,Polycythemia Vera
+17.9,10.8,470,57,90,31.0,35.0,Polycythemia Vera
+18.0,12.1,480,56,91,32.0,36.0,Polycythemia Vera
+11.5,6.5,300,36,65,22.0,30.0,Thalassemia
+12.0,5.8,290,37,67,23.0,31.0,Thalassemia
+11.8,6.1,310,35,66,22.5,30.5,Thalassemia
+12.2,60.0,100,40,90,29.0,33.0,Leukemia
+11.7,45.0,90,38,88,28.0,32.0,Leukemia
+12.5,55.5,85,41,89,29.0,33.0,Leukemia

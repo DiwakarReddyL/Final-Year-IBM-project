@@ -1,0 +1,411 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<style>
+    body {
+        background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 100%);
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .dashboard-container {
+        max-width: 1300px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    /* ===== Header Section ===== */
+    .dashboard-header {
+        background: #ffffff;
+        padding: 25px 35px;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
+
+    .dashboard-header:hover {
+        transform: translateY(-2px);
+    }
+
+    .dashboard-header h1 {
+        font-size: 26px;
+        color: #1e293b;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5;
+    }
+
+    .dashboard-header h1 span {
+        color: #2563eb;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .history-toggle-btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: #2563eb;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .history-toggle-btn:hover {
+        background: #1e40af;
+        transform: translateY(-2px);
+    }
+
+    /* ===== Main Panel ===== */
+    .main-panel {
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.07);
+        transition: transform 0.2s ease;
+    }
+
+    .main-panel:hover {
+        transform: translateY(-3px);
+    }
+
+    .main-panel h2 {
+        color: #1e293b;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .upload-form {
+        background: #f9fafb;
+        border: 1px solid #e2e8f0;
+        border-radius: 14px;
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+
+    .upload-form input[type="file"] {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+        border: 1px solid #cbd5e1;
+        margin-bottom: 15px;
+        background: #fff;
+        font-size: 15px;
+    }
+
+    .upload-form button {
+        background: #2563eb;
+        color: white;
+        padding: 12px 22px;
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .upload-form button:hover {
+        background: #1e40af;
+    }
+
+    .error {
+        color: #dc2626;
+        background: #fee2e2;
+        padding: 10px 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+        font-weight: 500;
+    }
+
+    /* ===== Table ===== */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    }
+
+    table thead {
+        background: #2563eb;
+        color: #fff;
+    }
+
+    table th, table td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #e2e8f0;
+        font-size: 15px;
+    }
+
+    table tbody tr:nth-child(even) {
+        background: #f9fafb;
+    }
+
+    /* ===== Query Section ===== */
+    .query-section {
+        margin-top: 40px;
+        background: #f9fafb;
+        padding: 25px;
+        border-radius: 12px;
+        border: 1px solid #e2e8f0;
+    }
+
+    .query-section input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #cbd5e1;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .query-section button {
+        background: #16a34a;
+        color: white;
+        border: none;
+        padding: 12px 22px;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .query-section button:hover {
+        background: #15803d;
+    }
+
+    /* ===== Query Results ===== */
+    .result-section {
+        margin-top: 40px;
+    }
+
+    .result-section h3 {
+        color: #1e293b;
+        margin-bottom: 15px;
+    }
+
+    .result-section img {
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+        margin-top: 10px;
+    }
+
+    /* ===== Hidden History Panel ===== */
+    .side-panel {
+        background: #fff;
+        padding: 25px;
+        border-radius: 16px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        max-height: 680px;
+        overflow-y: auto;
+        display: none;
+        transform-origin: top;
+        animation: slideDown 0.4s ease forwards;
+    }
+
+    .side-panel.active {
+        display: block;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: scaleY(0.8);
+        }
+        to {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .side-panel h3 {
+        color: #1e293b;
+        margin-bottom: 15px;
+    }
+
+    .history-entry {
+        padding: 10px 8px;
+        border-bottom: 1px solid #e2e8f0;
+        margin-bottom: 10px;
+    }
+
+    .history-entry strong {
+        color: #1e293b;
+    }
+
+    .history-entry small {
+        color: #6b7280;
+    }
+
+    .history-entry a {
+        display: inline-block;
+        margin-top: 5px;
+        color: #2563eb;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .history-entry a:hover {
+        text-decoration: underline;
+    }
+
+    .history-entry form {
+        display: inline;
+    }
+
+    .history-entry button {
+        color: #dc2626;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .history-entry button:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 992px) {
+        .dashboard-header {
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+</style>
+
+<div class="dashboard-container">
+    <!-- Header -->
+    <div class="dashboard-header">
+        <h1>👋 Welcome, {{ request.user.get_full_name|default:request.user.username }} </h1>
+        <button class="history-toggle-btn" id="toggleHistory" title="Show Upload History">📁 History</button>
+    </div>
+
+    <!-- Upload & Preview Section -->
+    <div class="main-panel">
+        <h2>📤 Upload Your CSV</h2>
+
+        <!-- Upload Form -->
+        <form class="upload-form" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload CSV</button>
+        </form>
+
+        {% if error %}
+            <div class="error">⚠️ {{ error }}</div>
+        {% endif %}
+
+        {% if df is not None %}
+            <h2>📄 CSV Preview (Top 5 Rows)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        {% for col in df.columns %}
+                            <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in df.values|slice:":5" %}
+                        <tr>
+                            {% for val in row %}
+                                <td>{{ val }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            <!-- Query Section -->
+            <div class="query-section">
+                <h3>🗣️ Ask Your CSV</h3>
+                <form method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" name="preview_id" value="{{ preview_id }}">
+                    <input type="text" name="query_text" placeholder="E.g., Show me total sales by category...">
+                    <button type="submit">Submit Query</button>
+                </form>
+
+                {% if query_code %}
+                    <p><strong>🧩 Parsed Code:</strong> <code>{{ query_code }}</code></p>
+                {% endif %}
+
+                {% if query_error %}
+                    <div class="error">⚠️ {{ query_error }}</div>
+                {% endif %}
+            </div>
+
+            <!-- Query Result Section -->
+            <div class="result-section">
+                {% if query_result %}
+                    <h3>📋 Query Result (Table)</h3>
+                    {{ query_result|safe }}
+                {% endif %}
+
+                {% if query_image %}
+                    <h3>📊 Query Result (Chart)</h3>
+                    <img src="data:image/png;base64,{{ query_image }}" style="max-width:100%;">
+                {% endif %}
+
+                {% if query_text %}
+                    <h3>📌 Result Summary</h3>
+                    <p><strong>{{ query_text }}</strong></p>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Hidden History Panel -->
+    <div class="side-panel" id="historyPanel">
+        <h3>📁 Upload History</h3>
+        {% if history %}
+            {% for item in history %}
+                <div class="history-entry">
+                    <strong>{{ item.filename }}</strong><br>
+                    <small>{{ item.timestamp|date:"Y-m-d H:i" }}</small><br>
+                    <a href="?preview_id={{ item.id }}">🔍 Preview</a>
+                    <form method="POST" action="{% url 'core:delete_csv' item.id %}">
+                        {% csrf_token %}
+                        <button type="submit">🗑️ Delete</button>
+                    </form>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p style="color:#6b7280;">No uploaded files yet.</p>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+    // Toggle Upload History visibility with smooth scroll
+    const toggleBtn = document.getElementById("toggleHistory");
+    const historyPanel = document.getElementById("historyPanel");
+
+    toggleBtn.addEventListener("click", () => {
+        historyPanel.classList.toggle("active");
+        historyPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+        toggleBtn.title = historyPanel.classList.contains("active") 
+            ? "Hide Upload History" 
+            : "Show Upload History";
+    });
+</script>
+{% endblock %}

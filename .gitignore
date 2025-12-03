@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+bert_model/bert-base-uncased/
+*.safetensors
+*.bin
+*.pth
+*.onnx

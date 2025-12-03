@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% load socialaccount %}
+
+{% block title %}Login | CSV Explorer{% endblock %}
+
+{% block content %}
+<style>
+    .login-container {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+        padding: 40px 35px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .login-container:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .login-container h2 {
+        margin-bottom: 25px;
+        color: #1e293b;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .login-container form {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        text-align: left;
+    }
+
+    .login-container label {
+        font-weight: 600;
+        font-size: 14px;
+        color: #334155;
+    }
+
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 1px solid #cbd5e1;
+        width: 100%;
+        transition: border 0.3s;
+    }
+
+    .login-container input:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+    .login-container button {
+        padding: 12px;
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .login-container button:hover {
+        background-color: #1e40af;
+        transform: translateY(-1px);
+    }
+
+    .google-btn {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #db4437 !important;
+        color: white;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 12px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .google-btn:hover {
+        background-color: #b33629;
+    }
+
+    .login-container a {
+        color: #2563eb;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .login-container a:hover {
+        text-decoration: underline;
+    }
+
+    .login-container .link-section {
+        margin-top: 15px;
+    }
+
+    .login-container hr {
+        margin: 25px 0;
+        border: none;
+        height: 1px;
+        background-color: #e2e8f0;
+    }
+
+    .login-container p {
+        color: #475569;
+        font-size: 15px;
+    }
+
+    /* Smooth Fade-in */
+    .login-container {
+        animation: fadeIn 0.6s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+        .login-container {
+            max-width: 90%;
+            padding: 30px 25px;
+        }
+    }
+</style>
+
+<div class="login-container">
+    <h2>🔐 Sign In to CSV Explorer</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Login</button>
+    </form>
+
+    <div class="link-section">
+        <p>Don't have an account? <a href="{% url 'account_signup' %}">Sign up</a></p>
+        <p><a href="{% url 'account_reset_password' %}">Forgot password?</a></p>
+    </div>
+
+    {% if socialaccount_providers %}
+    <hr>
+    <p>Or continue with:</p>
+    {% for provider in socialaccount_providers %}
+        <a href="{% provider_login_url provider.id %}">
+            <button type="button" class="google-btn">{{ provider.name }}</button>
+        </a>
+    {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}

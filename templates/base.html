@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}CSV Explorer{% endblock %}</title>
+
+    <style>
+        /* ====== Reset ====== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1e293b;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: linear-gradient(135deg, rgba(238, 242, 255, 0.4), rgba(248, 250, 252, 0.4)),
+                        url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80") 
+                        no-repeat center center fixed;
+            background-size: cover;
+            backdrop-filter: blur(3px);
+        }
+
+        /* ====== Navbar ====== */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(37, 99, 235, 0.5);
+            backdrop-filter: blur(8px);
+            color: white;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .navbar .logo {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .navbar-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .navbar-right a {
+            color: #fff;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 8px 14px;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .navbar-right a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        /* ====== Main Container ====== */
+        main.container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 20px;
+        }
+
+        /* ====== Login or Page Box ====== */
+        
+
+        
+
+        /* ====== Footer ====== */
+        footer {
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            color: #64748b;
+            text-align: center;
+            font-size: 15px;
+            padding: 15px 0;
+            border-top: 1px solid #e2e8f0;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        footer span {
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        /* ====== Responsive ====== */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px 25px;
+            }
+
+            .navbar-right {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .content-box {
+                max-width: 90%;
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ====== Navbar ====== -->
+    <nav class="navbar">
+        <div class="logo">
+            <span>📊</span> <strong>CSV Explorer</strong>
+        </div>
+
+        <div class="navbar-right">
+            {% if user.is_authenticated %}
+                <span>👋 {{ user.get_full_name|default:user.username }} ({{ user.email }})</span>
+                <a href="{% url 'account_logout' %}">Logout</a>
+            {% else %}
+                <a href="{% url 'account_login' %}">Login</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <!-- ====== Main Content (Centered Box) ====== -->
+    <main class="container">
+        <div class="content-box">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </main>
+
+    <!-- ====== Footer (Fixed) ====== -->
+    <footer>
+        &copy; 2025 <span>CSV Explorer</span> | Built with ❤️ by Diwa
+    </footer>
+
+</body>
+</html>

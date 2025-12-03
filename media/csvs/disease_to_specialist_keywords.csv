@@ -1,0 +1,16 @@
+complaint_keywords,specialist
+"tooth pain, toothache, dental pain, gum pain, sensitive teeth, cavity, wisdom tooth",Dentist
+"headache, migraine, dizziness, seizure, memory loss, numbness, stroke",Neurologist
+"chest pain, heart pain, palpitations, breathlessness, irregular heartbeat",Cardiologist
+"cough, wheezing, breathlessness, asthma, chest tightness, shortness of breath",Pulmonologist
+"stomach pain, abdominal pain, indigestion, acid reflux, bloating, constipation",Gastroenterologist
+"skin rash, acne, eczema, psoriasis, dry skin, skin allergy, itchiness",Dermatologist
+"joint pain, knee pain, arthritis, back pain, swelling in joints",Orthopedic Surgeon
+"vision loss, blurry vision, eye pain, red eye, dry eyes, cataract",Ophthalmologist
+"ear pain, hearing loss, sore throat, nasal congestion, runny nose, sinus",ENT Specialist
+"frequent urination, kidney pain, blood in urine, urinary infection",Urologist
+"irregular periods, pelvic pain, pregnancy issues, menopause, infertility",Gynecologist
+"anxiety, depression, mood swings, stress, sleep problems, hallucinations",Psychiatrist
+"diabetes, thyroid issues, weight gain, hormonal imbalance, fatigue",Endocrinologist
+"fever, infection, flu, cold, general weakness, fatigue",General Physician
+"child fever, vaccination, child cough, baby cold, child growth issues",Pediatrician

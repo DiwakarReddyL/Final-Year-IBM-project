@@ -1,0 +1,501 @@
+Test Type,Diagnosis,Feature 1 Name,Feature 1 Value,Feature 2 Name,Feature 2 Value,Feature 3 Name,Feature 3 Value
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Thyroid Test,Subclinical Hypothyroid,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+CT Scan,Normal,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+ECG,Bundle Branch Block,Heart Rate,120,PR Interval,210,QRS,130
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Ultrasound,Normal,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Lipid Profile,Atherosclerosis,Cholesterol,280,LDL,190,HDL,32
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Blood Glucose Test,Prediabetes,Fasting,140,PP,220,HbA1c,8.5
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Thyroid Test,Hypothyroidism,TSH,8.0,T3,1.2,T4,0.8
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
+Ultrasound,Cholelithiasis,Gallstones,yes,Kidney Size,12.5,,
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+X-RAY,Pneumonia,Lung Opacity,present,Bone Fracture,no,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Blood Glucose Test,Diabetes Mellitus,Fasting,140,PP,220,HbA1c,8.5
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+ECG,First-degree AV block,Heart Rate,120,PR Interval,210,QRS,130
+MRI Scan,Brain Tumor,Lesion,yes,Tumor Size,4.2,,
+MRI Scan,Multiple Sclerosis,Lesion,yes,Tumor Size,4.2,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+X-RAY,Normal,Lung Opacity,present,Bone Fracture,no,,
+Blood Test,Thrombocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Urine Test,Urinary Tract Infection,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+Blood Glucose Test,Impaired Glucose Tolerance,Fasting,140,PP,220,HbA1c,8.5
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+X-RAY,Rib Fracture,Lung Opacity,present,Bone Fracture,no,,
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Blood Test,Anemia,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Lipid Profile,Borderline Cholesterol,Cholesterol,280,LDL,190,HDL,32
+CT Scan,Intracranial Hemorrhage,Hemorrhage,present,Infarct Area,3.5,,
+MRI Scan,Normal,Lesion,yes,Tumor Size,4.2,,
+Thyroid Test,Hyperthyroidism,TSH,8.0,T3,1.2,T4,0.8
+Urine Test,Diabetes,Protein,++,Glucose,+,Ketones,trace
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Blood Test,Leukocytosis,Hemoglobin,9.2,WBC,14.2,Platelets,500
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+CT Scan,Stroke,Hemorrhage,present,Infarct Area,3.5,,
+Lipid Profile,Hyperlipidemia,Cholesterol,280,LDL,190,HDL,32
+ECG,Tachycardia,Heart Rate,120,PR Interval,210,QRS,130
+Urine Test,Dehydration,Protein,++,Glucose,+,Ketones,trace
+Ultrasound,Renal Enlargement,Gallstones,yes,Kidney Size,12.5,,
